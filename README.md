@@ -79,7 +79,7 @@ Follow the following steps to make the use of the project files from gitHub repo
    ```sh
    git clone https://github.com/twstoly/delani.git
    ```
-3. Install NPM packages
+3. Task completed Successfully.
    ```sh
    congratulations you have successfully cloned the project
    ```
