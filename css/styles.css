@@ -1,3 +1,10 @@
+*{
+    user-select: none;
+}
+p{
+    text-align: center;
+}
+
 .background{
     background: url(../assets/backgrounds/h_img.jpg) center;
     background-size: cover;
@@ -87,6 +94,85 @@
     display: flex;
     justify-content: center;
 }
+
+#outer{
+    position: relative;
+}
+.log-showing {
+    color: white;
+    position: absolute;
+    /* display: none; */
+    padding: 0px;
+  }
+#cardbackground{
+    background-color: white;
+    opacity: .5;
+    color: black;
+    text-align: center;
+    display: none;
+}
+
+/* what we do */
+.icons img{
+    width: 70px;
+    margin: auto;
+    padding-top: 20px;
+}
+.heading{
+    padding-top: 20px;
+}
+
+/* cards portfolio */
+
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.wrap{
+    /* margin: 60px ; */
+    box-shadow: 3px 3px 10px 0px black;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.text{
+    position: absolute;
+    top: 5px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    opacity: .4;
+    color: white;
+    /*  display: none; */
+
+}
+/* What we do toggle icons */
+#content1{
+    display: none;
+}
+#content2{
+    display: none;
+}
+#content3{
+    display: none;
+}
+
+@media (max-width:768px){
+    .wrap{
+        /* margin: 60px ; */
+        box-shadow: 3px 3px 10px 0px black;
+        position: relative;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    
+    .wrap img{
+        border-radius: 20px;
+    }
+}
+
+
 
 
 
