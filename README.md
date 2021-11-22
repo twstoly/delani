@@ -1,17 +1,11 @@
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a>
-    <img src="./assets/logo/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
+<div background-color="white" align="center">
   <h3 align="center">Delani Studio</h3>
 
   <p align="center">
     Amazing people are making amazing designs in a fun environment.
 </div>
 <div id="top"></div>
-<br>
 <br>
 
 ![Alt text](./assets/banner.png?=true "about")
