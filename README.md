@@ -1,8 +1,3 @@
-<div id="top"></div>
-![Alt text](./assets/banner.png?=true "about")
-![Alt text](./assets/about.png?=true "about")
-![Alt text](./assets/portfolio.png?=true "portfolio")
-![Alt text](./assets/form.png?=true "form")
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -14,12 +9,24 @@
 
   <p align="center">
     Amazing people are making amazing designs in a fun environment.
-    <br />
-    <br />
-    <br />
 </div>
+<div id="top"></div>
+<br>
+<br>
 
+![Alt text](./assets/banner.png?=true "about")
+<br>
+<br>
 
+![Alt text](./assets/about.png?=true "about")
+<br>
+<br>
+
+![Alt text](./assets/portfolio.png?=true "portfolio")
+<br>
+<br>
+
+![Alt text](./assets/form.png?=true "form")
 
 <!-- TABLE OF CONTENTS -->
 <details>
