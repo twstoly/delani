@@ -132,3 +132,8 @@ I would love to Give creadit to these resources that ihave used in this project.
 * [Font Awesome](https://fontawesome.com)
 
 
+### License
+License under the [MIT License](LICENSE).
+
+Copyright (c) twstInc **twstCompany**
+
