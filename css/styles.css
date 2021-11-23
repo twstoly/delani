@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
 *{
     user-select: none;
+    font-family: 'Raleway';
+    font-weight: 900;
 }
 p{
     text-align: center;
@@ -71,7 +76,7 @@ p{
 
 /* Contact Us */
 .contact{
-    background:url(../assets/backgrounds/s_image.jpg) center;
+    background:url(../assets/backgrounds/c_image.jpg) center;
     background-size: cover;
     min-height: 400px;
 }
@@ -136,13 +141,6 @@ p{
     text-align: center;
     padding-top: 10px;
 }
-
-/* .wrap{
-    margin: 60px ;
-    box-shadow: 3px 3px 10px 0px black;
-    position: relative;
-    margin-bottom: 15px;
-} */
 
 .wraper{
     margin: 10px;
