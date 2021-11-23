@@ -1,5 +1,36 @@
 // Business Logic
-var data = 
+var data = function(name){
+  return name
+}
+var mail = function(mail){
+  return mail
+}
+var textarea = function(textMessage){
+  return textMessage
+}
+// Getting the data from the user..
+
+$(document).ready(function(){
+  $('form#data').submit(
+    function(){
+      var name = $('#controlInput1').val()
+      var email = $("#controlInput2").val()
+      var text = $("#controlTextarea").val()
+      var myForm = $("#data")[0];
+
+      var sucess = name + "  we have received your message. Thank you fro reaching out to us."
+
+      if(!name || !email || !text){
+        alert("Fill in all the spaces..");
+        return false;
+      }else{
+        myForm.method = "post"
+        myForm.action = "https://gmail.us20.list-manage.com/subscribe/post?u=fe129e2324fe84990f1ee557f&amp;id=bf5aa18ea0"
+        alert(sucess)
+        return true
+      }
+    })
+})
 
 
 //Userinter face
@@ -39,7 +70,6 @@ $(document).ready(function(){
 });
 
 
-
 $(document).ready(function(){
     $("#icon1").click(function(){
         $("#content1").toggle();
@@ -56,6 +86,24 @@ $(document).ready(function(){
         $("#img3").toggle();
     })
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
